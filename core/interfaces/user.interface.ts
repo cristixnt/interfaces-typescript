@@ -1,5 +1,6 @@
 import { IName } from './name.interface';
 import { ILogin } from './login.interface';
+import { ILocation } from './location.interface';
 
 export interface IDob {
   date: Date;
@@ -25,7 +26,7 @@ export interface IPicture {
 export interface IUser {
   gender: string;
   name: IName;
-  location: Location;
+  location: ILocation;
   email: string;
   login: ILogin;
   dob: IDob;
